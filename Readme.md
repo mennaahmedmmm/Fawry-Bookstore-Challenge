@@ -1,6 +1,8 @@
+## 🧪 Sample Output
 
+Here is the sample output of the program:
 
-
+![Sample Output](images/output.png)
 ````markdown
 # Quantum Bookstore Java Project
 
@@ -29,28 +31,6 @@ This is a console-based Java application that simulates an online bookstore. It 
 | `Bookstore`       | Manages inventory, `buyBook()`, `addBook()`, `removeOutdatedBooks()` |
 | `QuantumBookstoreDemo` | Main class to test functionality                          |
 
----
-
-## 🧪 Sample Output
-
-```text
-Quantum book store :  
---------------------------Try buying PaperBook--------------------------
-Quantum Book Store: Shipping 'paperbook' to address: madinaty
-Quantum book store: Paid 240 EGP for paper book
---------------------------Try buying EBook--------------------------
-Quantum Book Store: Sending 'Ebook.try' to email: menna@gmail.com
-Quantum book store: Paid 150 EGP for ebook
---------------------------Try buying demo book (should fail)--------------------------
- Quantum book store: Expected error buying demo: Warning! : This book is not for sale
---------------------------Try buying unknown ISBN Book --------------------------
-Quantum book store: Error for unknown ISBN: Warning! : Book not found in inventory
- Quantum book store: Removed outdated book: paperbook (2008)
- Quantum book store: Removed outdated book: Demo (2020)
-````
-
----
-
 ## ▶️ How to Run
 
 1. Install JDK 17+
@@ -59,15 +39,5 @@ Quantum book store: Error for unknown ISBN: Warning! : Book not found in invento
 
 ---
 
-## 📁 File Structure
 
-```
-QuantumBookstore/
-├── QuantumBookstoreDemo.java
-├── README.md
-└── .vscode/
-    └── launch.json
-```
-
----
 
